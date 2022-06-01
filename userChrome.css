@@ -1,0 +1,75 @@
+:root {
+	/* dynamic url bar width settings */
+	--uc-urlbar-width: clamp(200px, 40vw, 500px);
+
+	/* dynamic tab width settings */
+	--uc-active-tab-width: clamp(100px, 20vw, 300px);
+	--uc-inactive-tab-width: clamp(50px, 15vw, 200px);
+}
+
+/* Title bar */
+.titlebar-buttonbox {
+	display: none !important;
+}
+
+.titlebar-spacer {
+	display: none !important;
+}
+
+/* Tab bar */
+#navigator-toolbox {
+	border-bottom: none !important;
+}
+
+#TabsToolbar {
+	margin-left: var(--uc-urlbar-width) !important;
+}
+
+/* Nav bar*/
+#nav-bar {
+	border: none !important;
+	box-shadow: none !important;
+	background: transparent !important;
+	margin: calc((var(--urlbar-min-height) * -1) - 8px)
+		calc(100vw - var(--uc-urlbar-width)) 0 0 !important;
+}
+
+/* URL bar */
+#back-button {
+	display: none !important;
+}
+
+#forward-button {
+	display: none !important;
+}
+
+#tracking-protection-icon-container {
+	display: none !important;
+}
+
+#identity-box {
+	display: none !important;
+}
+
+#urlbar {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#urlbar-search-mode-indicator {
+	display: none !important;
+}
+
+#urlbar-background {
+	border: none !important;
+}
+
+#page-action-buttons {
+	display: none !important;
+}
+
+#PanelUI-button {
+	display: none !important;
+}
+
